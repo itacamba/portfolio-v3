@@ -25,25 +25,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/portfolio-3rd/styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/5eb26f0a00.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js" ></script>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Montserrat:wght@400;500;800;900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <link rel="icon" type="image/png" href="./images/favicon.ico"/>
     <title>Carla Sahagun | Front End Developer in Virginia</title>
 
 </head>
 <body>
 
     <div id="main">
-        <header class="container-80">
+        <header class="container-95">
             <div id="logo">
                 <img src="./images/carla-logo.png"/>
             </div>
             <nav class="navbar">
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a> 
-                <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
                 <a href="./carla_resume_aug_2020.pdf"  class="theme-btn" target="_blank" >Resume</a>
             </nav>
@@ -54,7 +53,6 @@
                 <div class="mobile-items">
                     <div id="x-icon" onclick="hideMobileMenu()"><i class="fas fa-times"></i></div>
                     <a href="#about">About</a>
-                    <a href="#projects">Projects</a> 
                     <a href="#skills">Skills</a>
                     <a href="#contact">Contact</a>
                     <a href="./carla_resume_aug_2020.pdf" target="_blank" >Resume</a>
@@ -63,12 +61,10 @@
             </div>
         </header>
         <div class="hero-content">
-            <p>Hey there! I am</p>
-            <h1>Carla Sahagun</h1>
-            <h2>I am a <span>Front end Developer.</span></h2>
-            <div id="down-arrow">
-                <img src="images/down-arrow.png">
-            </div>
+            <p>Hi, my name is</p>
+            <h1>Carla Sahagun.</h1>
+            <h2>I am a software engineer based in Herndon, VA specialized in building mobile and web applications that deliver exceptional user experience.</h2>
+            <a href="#contact" class="theme-btn">Connect</a>
         </div>
     </div>
     <section  id="about" >
