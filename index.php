@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="./stylesheet.css">
     <script src="https://kit.fontawesome.com/5eb26f0a00.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js" ></script>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Montserrat:wght@200;400;500;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Montserrat:wght@200;400;500;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="./images/favicon.ico"/>
     <title>Carla Sahagun | Front End Developer in Virginia</title>
 
@@ -53,7 +53,7 @@
                 <div class="mobile-items">
                     <div id="x-icon" onclick="hideMobileMenu()"><i class="fas fa-times"></i></div>
                     <a href="#about">About</a>
-                    <!-- <a href="#skills">Skills</a> -->
+                    <a href="#projects">Projects</a> 
                     <a href="#contact">Contact</a>
                     <a href="./carla_resume_aug_2020.pdf" target="_blank" >Resume</a>
                 </div>
@@ -77,7 +77,7 @@
             <h1>About Me</h1>
         </div>
         <div class="about-me">
-            <!-- <h1>About Me</h1> -->
+            <h1>My Journey</h1>
             <p>My name is Carla. I am a full-stack software engineer who decided to immerse
                myself in web development. My first website was created when my dad needed 
                to build a mobile application for his business. He didn't have the money or 
@@ -121,11 +121,38 @@
 
 
     <section id="projects" >
-        <h1>Recent Projects</h1>
-        <p>The following projects have been built on a two week sprint going from an idea, wireframe to final product.</p>
+        <div class="section-name">
+            <h1>02</h1>
+            <div class="straight-line"></div>
+            <h1>Projects</h1>
+        </div>
+        <h1>My Latest Projects</h1>
+        <p>The following projects have been built on a two week sprint starting from an idea to a wireframe and final product.</p>
         <div id="projects-container">
+
             <div class="project">
-                <img src="./images/bcs-browser.png"/>  
+                <div class="carousel">
+                    <button class="carousel__button carousel__button--left">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel__track-container">
+                        <ul class="carousel__track">
+                            <li class="carousel__slide current-slide">
+                                <img class="carousel__image" src="./images/bcs-browser.png" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="./images/bcs-2.png" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="./images/bcs-3.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel__button carousel__button--right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
                 <div class="project-content">
                     <p>Featured Project</p>
                     <h1>Business Cyber Shield</h1>
@@ -142,157 +169,112 @@
                 </div>
 
             </div>
-            <div class="project project-even">
-                <div class="project-even-content">
-                    <p>Featured Project</p>
-                    <h1>Cheffed App</h1>
-                    <h2>Full Stack web app built for food enthusiasts to showcase their dishes and 
-                    to receive requests from customers. Featuring CRUD, search and Login Functionality</h2>
-                    <div class="even-tech-used">
-                        <p>React</p>
-                        <p>Ruby on Rails</p>
-                        <p>JSON web Tokens</p>
-                    </div>
-                    <div class="even-project-icons">
-                        <a href="https://github.com/itacamba/cheffed-frontend" target="_blank" ><i class="fab fa-github"></i></a>
-                        <a href="javascript:void(0)" onclick="showPopUp()"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <img src="./images/cheffed-browser.png"/>  
-            </div>
+
+
+
+
             <div class="project">
-                <img src="./images/bcs-browser.png"/>  
+                
                 <div class="project-content">
                     <p>Featured Project</p>
-                    <h1>Personal Portfolio</h1>
-                    <h2>An online Pictionary built with JavaScript, imitating real time with Long Polling</h2>
+                    <h1>Cheffed - Full Stack</h1>
+                    <h2>Platform built for food enthusiasts to showcase their specialty dishes and get requests from prospect clients. Featuring a fully functioning search bar</h2>
                     <div class="tech-used">
+                        <p>Ruby on Rails</p>
                         <p>React</p>
-                        <p>Email.js</p>
+                        <p>JSON Tokens</p>
                     </div>
                     <div class="project-icons">
-                        <a href="https://github.com/itacamba/flat-frontend" target="_blank" ><i class="fab fa-github"></i></a>
-                        <a href="javascript:void(0)" onclick="showPopUp()"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/itacamba/cheffed-frontend" target="_blank" ><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/watch?v=gMuNcwAQXM0" target="_blank" ><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
 
+                <div class="carousel">
+                    <button class="carousel__button carousel__button--left btn-2-left">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel__track-container">
+                        <ul class="carousel__track track-2">
+                            <li class="carousel__slide current-slide-2">
+                                <img class="carousel__image" src="./images/cheffed-1.png" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="./images/cheffed-2.png" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="./images/cheffed-3.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel__button carousel__button--right btn-2-right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    
+                </div>
+
+
             </div>
+
+
+
+            <div class="project">
+                
+                <div class="carousel">
+                    <button class="carousel__button carousel__button--left btn-3-left">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel__track-container">
+                        <ul class="carousel__track track-3">
+                            <li class="carousel__slide current-slide-3">
+                                <img class="carousel__image" src="./images/portfolio-1.png" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="./images/portfolio-2.png" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="./images/portfolio-3.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel__button carousel__button--right btn-3-right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    
+                </div>
+
+                <div class="project-content">
+                    <p>Featured Project</p>
+                    <h1>Portfolio Version 2</h1>
+                    <h2>Personal Website presenting some of my projects, background and skills. Built originally with HTML, CSS and JavaScript</h2>
+                    <div class="tech-used">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="project-icons">
+                        <a href="https://github.com/itacamba/portfolio-v2" target="_blank" ><i class="fab fa-github"></i></a>
+                        <a href="https://www.carlasahagun.com/portfolio-2" target="_blank" ><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
-    <!-- <section id="skills" class="container-90">   
-        <h1>My Skill Set</h1>
-        <p>The following projects have been built on a two week sprint going from an idea, wireframe to final product.</p>
-        <div id="three-main-skills">
-            <div class="card">
-                    <h1> HTML</h1>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>95%</h2>
-                    </div>
-            </div>
-            <div class="card">
-                <h1> CSS</h1>
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>95%</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <h1> JS</h1>
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>90%</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="horizontal-skills" class="container-80">
-            <div class="skills-left">
-                <div class="skill">
-                    <div class="skill-name">
-                        <h1>React</h1>
-                        <h2>90%</h2>
-                    </div>
-                    <div class="holder">
-                        <div class="progress p-90"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">
-                        <h1>Ruby on Rails</h1>
-                        <h2>85%</h2>
-                    </div>
-                    <div class="holder">
-                        <div class="progress p-85"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">
-                        <h1>Git / Github</h1>
-                        <h2>95%</h2>
-                    </div>
-                    <div class="holder">
-                        <div class="progress p-95"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="skills-right">
-                <div class="skill">
-                    <div class="skill-name">
-                        <h1>Ruby</h1>
-                        <h2>80%</h2>
-                    </div>
-                    <div class="holder">
-                        <div class="progress p-80"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">
-                        <h1>Invision Studio</h1>
-                        <h2>95%</h2>
-                    </div>
-                    <div class="holder">
-                        <div class="progress p-95"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">
-                        <h1>Photoshop / Illustrator</h1>
-                        <h2>85%</h2>
-                    </div>
-                    <div class="holder">
-                        <div class="progress p-85"></div>
-                    </div>
-                </div>
 
-            </div>
-            
-        </div>
-    </section> -->
+
     <section id="freelance">
         <img src="./images/virginia.png"/>
             <h1>I am available for freelancing</h1>
-            <p>If you are looking to start a new project do not hesitate to contact me,<br> let's build something great!</p>
+            <p>If you are looking to start project, or just need to accelerate the completion of one, contact me.<br>Let's build something great!</p>
             <div class="hire-me">
-                <a href="#contact" class="theme-btn">Hire Me</a>
+                <a href="#contact" class="theme-btn">Work with Me</a>
             </div>
 
     </section>
    <section id="contact">
        <h1>Get in Touch.</h1>
-       <p>Have a sweet project in mind or just want to say hi?
+       <p>Have a project in mind or just want to say hi?
         Feel free to send me a message.</p>
         <?php 
             if($message_sent):
@@ -320,9 +302,6 @@
             <a href="https://www.linkedin.com/in/carla-sahagun" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://www.instagram.com/itacamba/" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
             <a href="https://github.com/itacamba" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
@@ -342,7 +321,8 @@
 
     <script src="./index.js"></script>
     <script src="./scrolling.js"></script>
-    
+    <script src="./carousel.js"></script>
+
     
 </body>
 </html>
