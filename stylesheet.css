@@ -52,7 +52,6 @@ header{
 }
 .navbar{
     z-index: 100;
-    width: 30%;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -62,6 +61,7 @@ header{
     font-family: 'Cabin';
     font-weight: 400;
     font-size: 14px;
+    margin-left: 45px;
 }
 .navbar a:last-child{
     color: #f23064;
@@ -112,47 +112,120 @@ header{
 .hero-content > a{
     width: 150px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     font-size: 14px;
 }
 /* About Me */
 #about{
-    max-width: 80%;
+    max-width: 1020px;
+    width: 70%;
     margin: 0 auto;
+    margin-top: 200px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+.section-name{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 150px;
+    display: flex;
+    transform: rotate(-90deg);
+     /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    transform-origin: left top 0;
+    top: 145px;
+    left: -110px;
+}
+.section-name h1{
+    font-size: 13px;
+    word-spacing: 4px;
+    color: #A4B5E0;
+    /* color: #D6CEF3; */
+}
+.straight-line{
+    width: 40px;
+    height: .5px;
+    margin: 9px 10px 0 10px;
+    background: #A4B5E0;
+    /* background-color: #D6CEF3; */
+}
+.about-me{
    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 1px solid blue; */
+    text-align: justify;
+}
+.about-me span{
+    color: #f23064;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 13px;
+    padding-left: 5px;
+}
+.about-me > p{
+    color: #A4B5E0;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#skills{
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 30px;
+    /* border: 1px solid yellow; */
+}
+.skills-left{
+    width: 45%;
+}
+.skills-right{
+    width: 45%;
+}
+.skill{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 10px;
+}
+.skill i{
+    font-size: 14px;
+    color: #f23064;
+    margin-right: 10px;
+    /* border: 1px solid teal; */
+}
+.skill > p{
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 13px;
+    /* border: 1px solid green; */
 }
 .my-picture{
-    flex: 50%;
+    width: 35%;
+    /* border: 1px solid red; */
 }
 .my-picture img{
     width: 100%;
     display: block;
-}
-.about-me{
-    flex: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    /* border: 1px solid red; */
-    padding-left: 50px;
-    text-align: justify;
-    width: 50%;
-}
-.about-me h1{
-    font-size: 50px;
-    font-family: 'Montserrat';
-}
-.about-me p{
-    margin-top: 25px;
-    color: #666666;
-    line-height: 30px;
+    /* border: 1px solid yellow; */
 }
 .about-me .theme-btn{
-    margin-top: 25px;
+    margin-top: 40px;
+    font-size: 13px;
 }
 /* End About Me */
 /* Projects */
@@ -317,170 +390,6 @@ header{
 /* end project even */
 /* end Projects*/
 
-/*-- Skills --*/
-#skills{
-    margin-top: 100px;
-    padding-top: 100px;
-}
-#skills > h1{
-    font-size: 50px;
-    font-family: 'Montserrat';
-    text-align: center;
-}
-#skills p{
-    margin-top: 25px;
-    text-align: center;
-}
-#three-main-skills{
-    margin-top: 120px;
-    display: flex;
-    justify-content: space-between;
-}
-/* Cards*/
-.card{
-    position: relative;
-    height: 300px;
-    width: 31.5%;
-    border-radius: 5px;
-    background-color: white;
-    -webkit-box-shadow: 0px 6px 21px 0px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 6px 21px 0px rgba(0,0,0,0.15);
-    box-shadow: 0px 6px 21px 0px rgba(0,0,0,0.15);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    /* background:red; */
-}
-.card > h1{
-    font-family: 'Montserrat';
-    font-size: 25px;
-}
-svg{
-    position: relative;
-    width: 155px;
-    height: 155px;
-    /* border:1px solid red; */
-}
-svg circle{
-    width: 100%;
-    height: 100%;
-    fill: none;
-    stroke:#191919;
-    stroke-width: 7;
-    stroke-linecap: round;
-    transform: translate(5px, 5px);
-}
-svg circle:nth-child(2){
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
-}
-svg circle:nth-child(1){
-    stroke: #999999;
-    margin-top: 50px;
-}
-/* first card */
-    /* HTML */
-.card:nth-child(1) svg circle:nth-child(2){
-   stroke:#5357F4;
-   stroke-dashoffset: calc(440 - (440*95)/100);
-}
-/* second card */
-    /* CSS */
-.card:nth-child(2) svg circle:nth-child(2){
-    stroke:#5357F4;
-    stroke-dashoffset: calc(440 - (440*95)/100);
- }
-/* third card */
-    /* JS */
-.card:nth-child(3) svg circle:nth-child(2){
-    stroke:#5357F4;
-    stroke-dashoffset: calc(440 - (440*90)/100);
- }
-.number{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top:38px;
-    left:0;
-    /* border: 1px solid yellow; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.number h2{
-    font-family: 'Montserrat';
-}
-/* horizontal bars */
-#horizontal-skills{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-
-}
-.skill{
-    margin-top: 30px;
-    width: 100%;
-    height:40px;
-    /* background-color: red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-.skill-name{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.skill-name > h1{
-    /* border: 1px solid blue; */
-    font-size: 14px;
-    font-weight: 400;
-    color: #555;
-}
-.skill-name > h2{
-
-    font-size: 14px;
-    font-weight: 400;
-    color: #555;
-
-}
-.holder{
-    width: 100%;
-    height: 10px;
-    border-radius: 20px;
-    background-color: #e2e2e2;
-    position: relative;
-}
-.progress{
-    height: 10px;
-    background-color: #5357F4;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    position: absolute;
-}
-.p-80{
-    width: 80%;
-}
-.p-85{
-    width: 85%;
-}
-.p-90{
-    width: 90%;
-}
-.p-95{
-    width: 95%;
-}
-.skills-left{
-    width: 45%;
-}
-
-.skills-right{
-    width: 45%;
-}
-/* end horizontal bars */
-/*-- End Skills --*/
 
 /* Freelance */
 #freelance{
@@ -731,7 +640,7 @@ input[type=submit]{
         }
     /* End hero content */
     /* about */
-        #about{
+        /* #about{
             flex-direction: column;
         }
         .my-picture{
@@ -742,9 +651,8 @@ input[type=submit]{
             width: 100%;
             margin: 0 auto;
             padding:0;
-        }
-        .about-me h1{
-            /* border: 1px solid red; */
+        } */
+        /* .about-me h1{
             font-size: 7vw;
             margin: 0 auto;
             margin-top: 30px;
@@ -755,7 +663,7 @@ input[type=submit]{
         }
         .about-me > a{
             margin-top: 20px;
-        }
+        } */
     /* End about */
     /* Projects */
         #projects{
@@ -858,59 +766,6 @@ input[type=submit]{
         /* end project even*/
 
      /* End Projects */
-     /* My Skill Set */
-     #skills{
-         margin-top: 0;
-     }
-     #skills > h1{
-        font-size: 8vw;
-     }
-     #skills p{
-         line-height: 30px;
-     }
-     #three-main-skills{
-         flex-direction: column;
-     }
-     .card{
-         width: 80%;
-         height: 240px;
-         margin: 20px auto;
-         margin-bottom: 20px;
-
-     }
-     .card > h1{
-         font-size: 15px;
-     }
-     svg{
-        width: 150px;
-        height: 150px;
-        /* border:1px solid red; */
-    }
-     
-    svg circle{
-        width: 150%;
-        height: 150%;
-        stroke-width: 4px;
-        transform: translate(4px, 4px);
-    }
-
-    .number{
-        top:20px;
-        font-size: 10px;
-    }
-    /* horizontal skills */
-    #horizontal-skills{
-        flex-direction: column;
-    }
-    .skills-left{
-        width: 100%;
-    }
-    
-    .skills-right{
-        width: 100%;
-    }
-    /* End horizontal skills */
-    /* End My Skill Set */
     /* freelance */
     #freelance h1{
         top: 40px;
