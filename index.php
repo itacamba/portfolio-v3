@@ -83,7 +83,7 @@
                to build a mobile application for his business. He didn't have the money or 
                knowledge, so he asked me for help. I did not have any experience building 
                websites, but that did not deter me from taking on the challenge, a decision
-                that would change my life.<span class="read-more">Read Moree.</span></p>
+                that would change my life.<span onclick="showModal()">Read More.</span></p>
 
             <div id="skills">
                 <div class="skills-left">
@@ -121,7 +121,7 @@
 
 <div id="modal-about">
     <div id="modal-card">
-        <div class="modal-x">
+        <div class="modal-x" onclick="hideModal()">
             <i class="far fa-times-circle"></i>
         </div>
         <div class="modal-img">

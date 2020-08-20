@@ -255,10 +255,10 @@ header{
 #modal-card{
     max-width: 600px;
     margin: 0 auto;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    margin-top: 5vh;
+    margin-top: 2vh;
     background-color: #E3EBFF;
     border-radius: 20px;
     position: relative;
@@ -274,8 +274,8 @@ header{
     color:#333333;
 }
 .modal-img{
-    width: 30%;
-    margin: 30px auto;
+    width: 25%;
+    margin: 20px auto;
     
 }
 .modal-img img{

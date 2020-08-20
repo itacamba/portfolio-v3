@@ -29,14 +29,11 @@ function hideMobileMenu(){
     menu.style.display = "none"
 }
 
-// when about read more is clicked
-console.log("i got heree")
-// const readMore = document.querySelector('.read-more')
-// console.log(readMore)
-// readMore.addEventListener("click",  () => {
-//     console.log("clicked")
-// })
-//     const modalAbout = document.querySelector('.modal-about')
-//     function showModal(){
-//         modalAbout.style.display = "block"
-//     }
+const modalAbout = document.querySelector('#modal-about')
+function showModal(){
+    modalAbout.style.display = "block"
+}
+
+function hideModal(){
+    modalAbout.style.display = "none"
+}
