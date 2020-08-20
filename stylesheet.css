@@ -118,14 +118,18 @@ header{
     font-size: 14px;
 }
 /* About Me */
+.background{
+    width: 100%;
+    margin-top: 150px;
+    background-color: #1B1042;
+}
 #about{
     max-width: 1020px;
     width: 70%;
     margin: 0 auto;
-    margin-top: 200px;
+    padding: 50px 0;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid blue; */
     position: relative;
 }
 .section-name{
@@ -145,7 +149,7 @@ header{
     /* Internet Explorer */
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     transform-origin: left top 0;
-    top: 145px;
+    top: 195px;
     left: -110px;
 }
 .section-name h1{
@@ -236,6 +240,64 @@ header{
     font-size: 13px;
 }
 /* End About Me */
+/*-- Modal About ---*/
+
+#modal-about{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    top:0;
+    left:0;
+    z-index: 120;
+    display: none;
+}
+#modal-card{
+    max-width: 600px;
+    margin: 0 auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    background-color: #E3EBFF;
+    border-radius: 20px;
+    position: relative;
+}
+.modal-x{
+    position: absolute;
+    top: 20px;
+    right:20px;
+    cursor: pointer;
+}
+.modal-x i{
+    font-size: 20px;
+    color:#333333;
+}
+.modal-img{
+    width: 30%;
+    margin: 30px auto;
+    
+}
+.modal-img img{
+    width: 100%;
+}
+.modal-content{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.modal-content p {
+    font-size: 15px;
+    color: #535353;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+/*-- End Modal About ---*/
+
+
+
+
 /* Projects */
 #projects{
     width: 70%;

@@ -69,7 +69,7 @@
     </div>
 
 
-
+<div class="background">
     <section  id="about">
         <div class="section-name">
             <h1>01</h1>
@@ -82,7 +82,8 @@
                myself in web development. My first website was created when my dad needed 
                to build a mobile application for his business. He didn't have the money or 
                knowledge, so he asked me for help. I did not have any experience building 
-               websites, but that did not deter  <span>Read More.</span></p>
+               websites, but that did not deter me from taking on the challenge, a decision
+                that would change my life.<span class="read-more">Read Moree.</span></p>
 
             <div id="skills">
                 <div class="skills-left">
@@ -116,7 +117,39 @@
             <img src="./images/carla-round-portrait.png" />
         </div>
     </section>
+</div>
 
+<div id="modal-about">
+    <div id="modal-card">
+        <div class="modal-x">
+            <i class="far fa-times-circle"></i>
+        </div>
+        <div class="modal-img">
+            <img src="./images/carla-round-portrait.png" alt="">
+        </div>
+        <div class="modal-content">   
+            <p>
+                After spending all of my spare time implementing the website, I quickly 
+                learned how much I enjoyed the challenges that come with building a 
+                website and decided to invest in the training necessary to pursue a 
+                career in software engineering.
+                I enrolled in Flatiron School's software engineering immersive certificate
+                program, which I completed this year. The program included classes that
+                teach the student how to build full-stack applications. The technologies
+                that we learned include Javascript, React, Ruby, Ruby on Rails, and how
+                to leverage APIs.
+            </p>
+            <p>
+                I am energetic, persistent, and a team player, never afraid 
+                to get out of my comfort zone. I am open to new challenges
+                and ready to learn new technologies. I am eager to deal with 
+                new projects and tasks, connect with people, and work with other
+                like-minded professionals.
+            </p>
+            <a href="./carla_resume_aug_2020.pdf" target="_blank" class="theme-btn">Resume</a>
+        </div>
+    </div>
+</div>
 
 
 
