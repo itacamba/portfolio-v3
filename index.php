@@ -51,7 +51,7 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <div class="mobile-items">
-                    <div id="x-icon" onclick="hideMobileMenu()"><i class="fas fa-times"></i></div>
+                    <div id="x-icon" onclick="hideMobileMenu()"><i class="far fa-times-circle"></i></div>
                     <a href="#about">About</a>
                     <a href="#projects">Projects</a> 
                     <a href="#contact">Contact</a>

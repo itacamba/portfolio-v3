@@ -678,7 +678,7 @@ input[type=submit]{
         top:0;
         right:0;
         height: 100vh;
-        background-color: #5A5CA6;
+        background-color: #A4B5E0;
         width: 50%;
         padding-top: 70px;
         z-index: 102;
@@ -687,8 +687,8 @@ input[type=submit]{
     #x-icon{
         display: block;
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 25px;
+        right: 7%;
         width: 40px;
         height: 40px;
         cursor: pointer
@@ -699,7 +699,7 @@ input[type=submit]{
         width: 100%;
         padding-top: 5px;
         text-align: center;
-        color: #BDBEDB;
+        color: #333333
     }   
     .mobile-items a{
         display: block;
@@ -708,7 +708,7 @@ input[type=submit]{
         padding: 15px 0;
         margin-bottom: 5px;
         font-size: 16px;
-        color: #F2F2F8;
+        color: rgba(51, 51, 51, 0.7);
     }
     .mobile-items a:last-child{
         float: left;
@@ -735,32 +735,6 @@ input[type=submit]{
             margin-top: 15px;
         }
     /* End hero content */
-    /* about */
-        /* #about{
-            flex-direction: column;
-        }
-        .my-picture{
-            max-width: 90%;
-            margin: 0 auto;
-        }
-        .about-me{
-            width: 100%;
-            margin: 0 auto;
-            padding:0;
-        } */
-        /* .about-me h1{
-            font-size: 7vw;
-            margin: 0 auto;
-            margin-top: 30px;
-        }
-        .about-me > p{
-            margin: 0 auto;
-            margin-top: 20px;
-        }
-        .about-me > a{
-            margin-top: 20px;
-        } */
-    /* End about */
     /* Projects */
         #projects{
             background-color: #e9e9e9;
