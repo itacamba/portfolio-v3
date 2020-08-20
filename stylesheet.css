@@ -726,13 +726,29 @@ input[type=submit]{
             /* border: 1px solid green; */
             height: 70vh;
         }
+        .hero-content{
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
         .hero-content p{
-            font-size: 18px;
+            font-size: 14px;
+            text-align: left;
         }
         .hero-content h1{
             font-size: 40px;
-            padding: 0 5px;
+            text-align: left;
             margin-top: 15px;
+        }
+        .hero-content h2{
+            width: 100%;
+            text-align: left;
+        }
+        .hero-content > .theme-btn {
+            border: 1px solid red;
+            width: 150px;
+            margin: 0;
+            margin-top: 30px;
         }
     /* End hero content */
     /* Projects */
