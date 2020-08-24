@@ -76,7 +76,7 @@ header{
 .theme-btn{
     color: #f2f2f2;
     border-radius:5px;
-    background: #464866;
+    background: #2e9cca;
     padding: 10px 25px;
 }
 .hero-content{
@@ -331,9 +331,6 @@ header{
     position: relative;
     /* border: 1px solid red; */
 }
-#projects > .section-name {
-    top: 235px;
-}
 #projects > h1{
     margin-top: 25px;
     font-size: 30px;
@@ -526,38 +523,40 @@ header{
     width: 100%;
     position: relative;
 }
+.freelance-content{
+    position: absolute;
+    top: 30%;
+    /* background: red; */
+    padding: 25px;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.freelance-content > h1{
+    font-size: 40px;
+    font-family: 'Montserrat';
+    /* text-align: center; */
+}
+.freelance-content > p{
+    margin-top: 35px;
+    padding: 0 10%;
+}
+.freelance-content .hire-me{
+    margin-top: 45px;
+}
+.hire-me > .theme-btn {
+    background: #2e9cca;
+    font-size: 12px;
+}
 #freelance img{
     width: 100%;
     display: block;
 }
-#freelance h1{
-    font-family: 'Montserrat';
-    font-size: 40px;
-    position: absolute;
-    width: 100%;
-    top: 25%;
-    /* border:1px solid yellow; */
-    text-align: center;
-    color: #e3e3e3;
-}
-#freelance p{
-    width: 100%;
-    position: absolute;
-    top: 40%;
-    color: #e3e3e3;
-    text-align: center;
-    line-height: 25px;
-}
-#freelance > div{
-    position: absolute;
-    top: 65%;
-    width: 100%;
-    text-align: center;
-}
-.hire-me{
-    margin-top: 25px;
-    /* border: 1px solid yellow; */
-}
+
 /* End Freelance*/
 
 /*-- Contact --*/
@@ -591,7 +590,7 @@ header{
 }
 .input-field{
     /* background-color: #1F2048; */
-    background-color: #1A1042;
+    background-color: #262750;
     border: none;
     border-bottom: 3px solid #5A5CA6;
     padding: 13px 0;
@@ -610,7 +609,7 @@ textarea{
     border:none;
     height: 130px;
     border-bottom: 3px solid #5A5CA6;
-    background-color: #1A1042;
+    background-color: #262750;
     font-size: 16px;
     color: #e3e3e3;
     padding-left: 10px;
@@ -621,13 +620,14 @@ input[type=submit]{
     width: 150px;
     margin: 0 auto;
     margin-top: 25px;
-    padding: 15px 35px;
     -webkit-appearance: none;
-    background-color: #f23064;
+    background-color: #2e9cca;
     border: none;
     border-radius: 5px;
     color: #f2f2f2;
     cursor: pointer;
+    text-align: center;
+    padding: 15px 0;
 }
 .social{
     width: 100px;
@@ -648,7 +648,7 @@ input[type=submit]{
     margin-top: 35px;
 }
 #copyright {
-    color: #e3e3e3;
+    color: #535466;
     font-size: 10px;
     width: 100%;
     text-align: center;
@@ -683,14 +683,19 @@ input[type=submit]{
 }
 /*--- End Demo Pop Up ---*/
 
+@media only screen and (max-width: 975px) {
+    .freelance-content{
+        width: 100%;
+        top: 20%;
+    }
+}
 /*--- RESPONSIVE 880px ---*/
 @media only screen and (max-width: 880px) {
     p{
         font-size: 14px;
     }
     header{
-        width: 90%;
-        margin: 0 auto;
+        height: 80px;
     }
     .navbar{
         display: none;
@@ -698,10 +703,13 @@ input[type=submit]{
     .mobile-navbar{
        display: block;
     }
+    #logo{
+        margin-left: 2.5%;
+    }
     .menu-icon{
         display: block;
         position: absolute;
-        top: 36px;
+        top: 28px;
         right: 5%;
         z-index: 101;
         /* border: 1px solid yellow; */
@@ -716,7 +724,7 @@ input[type=submit]{
         top:0;
         right:0;
         height: 100vh;
-        background-color: #A4B5E0;
+        background-color: #cacaca;
         width: 50%;
         padding-top: 70px;
         z-index: 102;
@@ -745,18 +753,21 @@ input[type=submit]{
         margin: 0 auto;
         padding: 15px 0;
         margin-bottom: 5px;
-        font-size: 16px;
-        color: rgba(51, 51, 51, 0.7);
+        font-size: 14px;
+        text-align: right;
+        color: #7a7a7a;
     }
     .mobile-items a:last-child{
-        float: left;
+        float: right;
         margin-top: 15px;
-        margin-left: 30px;
-        width: 150px;
+        margin-right: 10%;
+        font-size: 14px;
+
+        width: 120px;
         text-align: center;
-        background-color: #BDBEDB;
+        background-color: #2e9cca;
         border-radius: 5px;
-        color:#333;
+        color:#fff;
     }
     /* hero content */
  
@@ -764,37 +775,29 @@ input[type=submit]{
         /* border: 1px solid green; */
         height: 70vh;
     }
-    .hero-content{
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 50px;
-    }
     .hero-content p{
         font-size: 14px;
-        text-align: left;
     }
     .hero-content h1{
         font-size: 40px;
-        text-align: left;
         margin-top: 15px;
     }
     .hero-content h2{
         width: 100%;
         font-size: 14px;
-        text-align: left;
-        color: #A4B5E0;
+
     }
     .hero-content > .theme-btn {
-        border: 1px solid #f23064;
-        width: 150px;
-        margin: 0;
+        /* border: 1px solid #f23064; */
         margin-top: 30px;
     }
     /* End hero content */
 
     /* About */
     #about{
-       flex-direction: column-reverse;
+        margin-top: 0;
+        padding-top: 0;
+        flex-direction: column-reverse;
        /* border: 1px solid red; */
     }
     .my-picture{
@@ -803,15 +806,24 @@ input[type=submit]{
     }
     .about-me{
         width: 100%;
+        margin-top: 50px;
     }
-    .about-me h1{
+    .about-me > h1{
         margin-top: 25px;
-    font-size: 20px;
+        font-size: 20px;
     }
-    .section-name{
-    /* border: 1px solid red; */
-    left: -2.5%;
-    }
+  
+
+
+
+
+
+
+
+
+
+
+
     #skills{
         width: 100%;
     }
@@ -835,16 +847,11 @@ input[type=submit]{
     #projects{
         margin-top: 150px;
     }
-    #projects > .section-name {
-        top: 230px;
-    }
     #projects > h1{
         font-size: 20px;
-        padding-left: 25px;
     }
     #projects > p{
         width: 80%;
-        padding-left: 25px;
     }
     .project{
         margin-top: 100px;
@@ -864,22 +871,14 @@ input[type=submit]{
     /* End Projects */
     /* freelance */
     #freelance h1{
-        top: 40px;
+        /* top: 40px; */
         font-size: 30px;
     }
     #freelance p{
-        top: 80px;
-        /* border: 1px solid yellow; */
+        /* top: 40%; */
         display: block;
         font-size: 14px;
-    }
-    .hire-me{
-        margin-top: 30px;
-        /* border: 1px solid yellow; */
-    }
-    .hire-me a{
-        padding: 15px 30px;
-    }
+    } 
     /* Endf freelance */
     /* Contact */
     #contact > h1{
@@ -893,7 +892,7 @@ input[type=submit]{
         /* border: 1px solid yellow; */
     }
     #form{
-        width: 80%;
+        width: 60%;
     }
     /* End Contact */
     /* popUp */
@@ -905,29 +904,30 @@ input[type=submit]{
         line-height: 25px;
     }
     /* End popUp */
+    /* contact */
+    input[type=submit]{
+        font-size: 12px;
+        width: 130px;
+        padding: 10px;
+    }
 
   }
   @media only screen and (max-width: 660px) {
+    /* contact */
+    #form{
+    width: 70%;
+    }
+    /* End Contact */
     /*  freelance  */
-    #freelance img{
-        height: 250px;
+    .freelance-content{
+        top: 15%;
     }
     #freelance h1{
-        top: 40px;
         font-size: 25px;
     }
     #freelance p{
-        top: 90px;
-        /* border: 1px solid yellow; */
         line-height: 20px;
         font-size: 12px;
-    }
-    .hire-me{
-        margin-top:10px;
-        /* border: 1px solid yellow; */
-    }
-    .hire-me a{
-        padding: 10px 30px;
     }
     /* End freelance  */
     /* popUp */
@@ -941,16 +941,24 @@ input[type=submit]{
     }
     /* End popUp */
   }
-  @media only screen and (max-width: 390px) {
-    /*  freelance  */
-
-    #freelance h1{
-        font-size: 18px;
+  @media only screen and (max-width: 600px) {
+    #freelance img{
+        height: 300px;
+        object-fit: cover;
     }
-    #freelance p{
-        padding: 0 20%;
+  }
 
-        /* border: 1px solid yellow; */
+
+
+
+
+  @media only screen and (max-width: 440px) {
+    /*  freelance  */
+    .freelance-content{
+        top: 10%;
+    }
+    .freelance-content > p{
+        margin-top: 15px;
     }
     .hire-me{
         margin-top:30px;
@@ -960,7 +968,73 @@ input[type=submit]{
         padding: 10px 30px;
     }
     /* End freelance  */
-  }
+
+  
+    .hero-content{
+        padding: 0 5%;
+    }
+    /* about */
+    .background{
+        margin-top: 50px;
+    }
+    #about{
+        width: 90%;
+        padding: 0;
+    }
+    /* end about */
+
+    /* skills */
+    #skills{
+        width: 100%;
+    }
+    .skill{
+        width: 130px;
+    }
+    /* end skills */
+    
+
+    /* projects */
+    #projects{
+        width: 90%;
+    }
+    .carousel{
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* end projects */
+
+    /* contact */
+}
+  
+  
+
+@media only screen and (max-width: 310px) {
+    /* skills */
+    #skills{
+        flex-direction: column;
+    }
+    /* end skills */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
   /*-- Scroll to Top ---*/
 .to-top{
     z-index: 105;
@@ -1003,16 +1077,16 @@ input[type=submit]{
 #first-line-menu{
     width: 100%;
     height: 2px;
-    background: #f23064;
+    background: #2e9cca;
 }
 #second-line-menu{
     width: 70%;
     height: 2px;
-    background: #f23064;
+    background: #2e9cca;
 }
 #third-line-menu{
     width: 100%;
     height: 2px;
-    background: #f23064;
+    background: #2e9cca;
 }
 /*- Menu Icon -*/
