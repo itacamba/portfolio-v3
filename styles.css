@@ -1004,6 +1004,20 @@ input[type=submit]{
     /* end projects */
 
     /* contact */
+    .women-programming{
+        width: 100%;
+        /* border: 1px solid red; */
+        background-image: url(./images/women-programming.png) !important;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        -moz-background-size: auto;
+    -webkit-background-size: auto;
+    background-attachment: scroll;
+    background-size: auto;
+    height: 300px !important;
+        
+    }
 }
   
   
