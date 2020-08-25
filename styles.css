@@ -8,11 +8,6 @@
     letter-spacing: .4px;
     word-spacing: .5px;
 }
-body{
-    /* background-color: #140c32; */
-    /* background: rgb(20,12,50);
-    background: linear-gradient(0deg, rgba(20,12,50,1) 0%, rgba(31,12,50,1) 100%); */
-}
 a{
     text-decoration: none;
     letter-spacing: .4px;
@@ -43,6 +38,9 @@ header{
     align-items: center;
     height: 100px;
     background: #25274D;
+    position: fixed;
+    top: 0;
+    z-index: 206;
     /* border: 1px solid green; */
 }
 
@@ -81,9 +79,11 @@ header{
 }
 .hero-content{
     /* border: 1px solid red; */
+
     width: 100%;
     background-image: url(./images/woman-coding-on-computer.png);
     padding: 0 15%;
+    margin-top: 100px;
     height: 80%; /* makes it vertically centered*/
     display: flex;
     flex-direction: column;
@@ -775,6 +775,9 @@ input[type=submit]{
         /* border: 1px solid green; */
         height: 70vh;
     }
+    .hero-content{
+        margin-top: 80px;
+    }
     .hero-content p{
         font-size: 14px;
     }
@@ -946,6 +949,13 @@ input[type=submit]{
         height: 300px;
         object-fit: cover;
     }
+    .hero-content{
+        background-image: url(./images/woman-coding-mobile-dark.png);
+        height: 430px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
   }
 
 
@@ -975,7 +985,7 @@ input[type=submit]{
     }
     /* about */
     .background{
-        margin-top: 50px;
+        margin-top: 100px;
     }
     #about{
         width: 90%;
@@ -1012,10 +1022,10 @@ input[type=submit]{
         background-position: center;
         background-repeat: no-repeat;
         -moz-background-size: auto;
-    -webkit-background-size: auto;
-    background-attachment: scroll;
-    background-size: auto;
-    height: 300px !important;
+        -webkit-background-size: auto;
+        background-attachment: scroll;
+        background-size: auto;
+        height: 300px !important;
         
     }
 }
