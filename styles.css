@@ -79,7 +79,6 @@ header{
 }
 .hero-content{
     /* border: 1px solid red; */
-
     width: 100%;
     background-image: url(./images/woman-coding.png);
     padding: 0 15%;
@@ -88,6 +87,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    background-position: center;
+    background-attachment: fixed;
    
 }
 .hero-content p{
