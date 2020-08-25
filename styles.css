@@ -81,10 +81,9 @@ header{
     /* border: 1px solid red; */
 
     width: 100%;
-    background-image: url(./images/woman-coding-on-computer.png);
+    background-image: url(./images/woman-coding.png);
     padding: 0 15%;
-    margin-top: 100px;
-    height: 80%; /* makes it vertically centered*/
+    height: 100%; /* makes it vertically centered*/
     display: flex;
     flex-direction: column;
     justify-content: center;
