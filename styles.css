@@ -40,6 +40,7 @@ header{
     background: #25274D;
     position: fixed;
     top: 0;
+    transition: top 0.1s ease-in-out;
     z-index: 206;
     /* border: 1px solid green; */
 }
@@ -775,7 +776,7 @@ input[type=submit]{
         height: 70vh;
     }
     .hero-content{
-        margin-top: 80px;
+        padding-top: 80px;
     }
     .hero-content p{
         font-size: 14px;
@@ -952,6 +953,7 @@ input[type=submit]{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        background-attachment: none;
     }
   }
 
