@@ -305,7 +305,7 @@ header{
     margin-top: 50px;
     width: 100%;
     /* border: 1px solid red; */
-    background-image: url(./images/women-programming.webp);
+    background-image: url(./images/women-programming.webp), url(./images/png/women-programing.png);
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
