@@ -27,10 +27,13 @@
     <meta http-equiv="Cache-control" content="no-cache">
     <!-- meta tags to make website show up on linked in -->
     
-     <meta property='og:title' content='Carla Sahagun | Software Engineer'/>
+    <meta property='og:title' content='Carla Sahagun | Software Engineer'/>
     <meta property='og:type' content='website'/>
     <meta property='og:url' content='https://carlasahagun.com'/>
-    <meta property='og:description' content='Software Developer Portfolio Website'/>
+    <meta property='og:description' content="Software Developer Portfolio Website |  I am a full-stack software engineer who decided to immerse
+               myself in web development. My first website was created when my dad needed 
+               to build a mobile application for his business. He didn't have the money or 
+               knowledge, so he asked me for help."/>
     <meta property='og:image' content='./portfolio-3/images/png/woman-coding.png'/>
     <meta property='og:image:width' content='1200'/>
     <meta property='og:image:height' content='560'/>
@@ -388,7 +391,7 @@
     <script src="./portfolio-3/index.js"></script>
     <script src="./portfolio-3/scrolling.js"></script>
     <script src="./portfolio-3/carousel.js"></script>
-    <script>
+    <!-- <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
@@ -401,7 +404,7 @@
                 prevScrollpos = currentScrollPos;
             }
         }
-    </script>
+    </script> -->
 
     
 </body>
