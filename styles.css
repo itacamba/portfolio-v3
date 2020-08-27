@@ -78,7 +78,7 @@ header{
 }
 .hero-content{
     width: 100%;
-    background-image: url(./images/woman-coding.webp);
+    background-image: url('./images/woman-coding.webp'), url('./images/png/woman-coding.png');
     padding: 0 15%;
     height: 100%; /* makes it vertically centered*/
     display: flex;
@@ -305,7 +305,7 @@ header{
     margin-top: 50px;
     width: 100%;
     /* border: 1px solid red; */
-    background-image: url(./images/women-programming.webp), url(./images/png/women-programing.png);
+    background-image: url('./images/women-programming.webp'), url('./images/png/women-programming.png');
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -952,7 +952,7 @@ input[type=submit]{
         object-fit: cover;
     }
     .hero-content{
-        background-image: url(./images/woman-coding-mobile-dark.webp);
+        background-image: url('./images/woman-coding-mobile-dark.webp'), url('./images/png/woman-coding-mobile-dark.png');
         height: 450px;
         background-attachment: scroll;
         background-position: center;
@@ -1021,7 +1021,7 @@ input[type=submit]{
     .women-programming{
         width: 100%;
         /* border: 1px solid red; */
-        background-image: url(./images/women-programming.webp) !important;
+        background-image: url('./images/women-programming.webp'), url('./images/png/women-programming.png');
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
