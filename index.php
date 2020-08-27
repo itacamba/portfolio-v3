@@ -51,7 +51,7 @@
 
 </head>
 <body>
-
+    
     <div id="main">
         <header id="header">
             <div id="logo">
@@ -174,7 +174,9 @@
         </div>
     </div>
 </div>
-
+    <div id="opportunity">
+        <h1>Currently Seeking New Opportunities</h1>
+    </div>
     <div class="women-programming"> </div>
 
     <section id="projects" >

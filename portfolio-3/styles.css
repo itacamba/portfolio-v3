@@ -82,6 +82,7 @@ header{
     padding: 0 15%;
     height: 100%; /* makes it vertically centered*/
     display: flex;
+    object-fit: cover;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
@@ -299,10 +300,23 @@ header{
     font-size: 12px;
 }
 /*-- End Modal About ---*/
-
+#opportunity{
+    margin-top: 50px;
+    width: 100%;
+    background: #25274D;
+}
+#opportunity h1{
+    font-size: 20px;
+    color: rgba(242, 242, 242,.5);
+    font-family: 'Montserrat';
+    font-weight: 100;
+    padding: 30px 0;
+    font-weight: bold;
+    text-align: center;
+}
 /*-- women who code ---*/
 .women-programming{
-    margin-top: 50px;
+
     width: 100%;
     /* border: 1px solid red; */
     background-image: url('./images/women-programming.webp'), url('./images/png/women-programming.png');
