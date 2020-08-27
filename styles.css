@@ -655,7 +655,7 @@ input[type=submit]{
 
 /*--- Demo Pop Up ---*/
 .demo-pop-up{
-    background-color: #5A5CA6;
+    background-color: #464866;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -675,7 +675,7 @@ input[type=submit]{
     height: 100%;
     justify-content: center;
     align-items: center;
-    color: #e3e3e3;
+    color: #f2f2f2;
     
 }
 /*--- End Demo Pop Up ---*/
