@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    /* color:#E3EBFF; */
     color: #f2f2f2;
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif;
@@ -42,7 +41,6 @@ header{
     top: 0;
     transition: top 0.1s ease-in-out;
     z-index: 206;
-    /* border: 1px solid green; */
 }
 
 #logo{
@@ -79,9 +77,8 @@ header{
     padding: 10px 25px;
 }
 .hero-content{
-    /* border: 1px solid red; */
     width: 100%;
-    background-image: url(./images/woman-coding.png);
+    background-image: url(./images/woman-coding.webp);
     padding: 0 15%;
     height: 100%; /* makes it vertically centered*/
     display: flex;
@@ -94,7 +91,6 @@ header{
 }
 .hero-content p{
     z-index: 101;
-    /* color: #f23064; */
     color: #f2f2f2;
     font-family: 'Cabin';
     font-size: 15px;
@@ -309,7 +305,7 @@ header{
     margin-top: 50px;
     width: 100%;
     /* border: 1px solid red; */
-    background-image: url(./images/women-programming.png);
+    background-image: url(./images/women-programming.webp);
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -956,7 +952,7 @@ input[type=submit]{
         object-fit: cover;
     }
     .hero-content{
-        background-image: url(./images/woman-coding-mobile-dark.png);
+        background-image: url(./images/woman-coding-mobile-dark.webp);
         height: 450px;
         background-attachment: scroll;
         background-position: center;
@@ -1025,7 +1021,7 @@ input[type=submit]{
     .women-programming{
         width: 100%;
         /* border: 1px solid red; */
-        background-image: url(./images/women-programming.png) !important;
+        background-image: url(./images/women-programming.webp) !important;
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
@@ -1098,7 +1094,6 @@ input[type=submit]{
 
 /*- Menu Icon -*/
 .menu-icon{
-    /* border: 1px solid blue; */
     width: 25px;
     height: 20px;
     display: flex;
