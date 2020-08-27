@@ -25,6 +25,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Cache-control" content="no-cache">
+    <!-- meta tags to make website show up on linked in -->
+    
+     <meta property='og:title' content='Carla Sahagun | Software Engineer'/>
+    <meta property='og:type' content='website'/>
+    <meta property='og:url' content='https://carlasahagun.com'/>
+    <meta property='og:description' content='Software Developer Portfolio Website'/>
+    <meta property='og:image' content='./portfolio-3/images/png/woman-coding.png'/>
+    <meta property='og:image:width' content='1200'/>
+    <meta property='og:image:height' content='560'/>
+
+
+    <!-- end meta tags to make website show up on linked in -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./portfolio-3/styles.css">
     <script src="https://kit.fontawesome.com/5eb26f0a00.js" crossorigin="anonymous"></script>
